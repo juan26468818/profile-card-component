@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+    --Dark-gray: hsl(0, 0%, 59%);
+    font-size: 18px;
+}
+body{
+    min-height: 100vh;
+    width: 100vw;
+    padding: 1rem;
+    background-color: var(--Dark-cyan);
+    background-image: url("./img/bg-pattern-bottom.svg"), url("./img/bg-pattern-top.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom -48vh right 148%, top -50vh left 146%;
+}
+main{
+    max-width: 20rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    text-align: center;
+}
+.top-card{
+    height: 6rem;
+    background-image: url("./img/bg-pattern-card.svg");
+    position: relative;
+    margin-bottom: 2rem;
+}
+.profile-pic{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.bottom-card{
+    padding: 1rem;
+}
+.profile-info{
+    display: flex;
+}
+.stats-container{
+    display: flex;
+}
