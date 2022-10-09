@@ -84,3 +84,9 @@ h2{
     font-size: .6rem;
     letter-spacing: 2px;
 }
+@media (min-width: 600px){
+    body{
+        background-position: bottom -100vh right -40vh, top -80vh left -21vw;
+        background-size: 70%, 70%;
+    }
+}
